@@ -1,0 +1,26 @@
+1. Download the file "sniffer.py" in your Kali Linux machine.
+
+2. Open terminal.
+
+3. Install python in your machine with this command.
+sudo apt install python3
+
+4. Install scappy with pip with this command.
+sudo apt update
+sudo apt install scapy
+
+5. Navigate to the folder where you have downloaded "sniffer.py"
+
+6. In the last line of code you have option if you wanna scan the eth0 / wlan0 / lo.
+   Replace "eth0" with Your Active Network Interface.
+
+7. Run the code with help of this command.
+sudo python3 sniffer.py
+
+8. open one more tab of terminal and ping google with help of this command.
+ping google.com
+
+9. now you can see the packets being captured in the 1st tab of terminal where you have executed "sniffer.py".
+
+10. use CTRL+C to exit the program.
+
